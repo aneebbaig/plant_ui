@@ -47,7 +47,10 @@ class HomePage extends StatelessWidget {
                   children: const [
                     Text(
                       "Get Started",
-                      style: TextStyle(fontSize: 25),
+                      style: TextStyle(
+                        fontSize: 25,
+                        color: Colors.black,
+                      ),
                     ),
                     Icon(Icons.arrow_forward),
                   ],
