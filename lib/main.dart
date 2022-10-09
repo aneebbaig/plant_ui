@@ -15,9 +15,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Plant UI',
       theme: ThemeData(
-        textTheme: GoogleFonts.latoTextTheme(),
-        primarySwatch: Colors.green,
-      ),
+          textTheme: GoogleFonts.poppinsTextTheme().apply(
+            bodyColor: Colors.white,
+            displayColor: Colors.white,
+          ),
+          iconTheme: const IconThemeData(
+            color: Colors.white,
+          )),
       home: const Shop(),
     );
   }
