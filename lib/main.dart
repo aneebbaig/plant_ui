@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '../screen/homepage.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:plants_ui/screen/shop_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,9 +15,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Plant UI',
       theme: ThemeData(
+        textTheme: GoogleFonts.latoTextTheme(),
         primarySwatch: Colors.green,
       ),
-      home: const HomePage(),
+      home: const Shop(),
     );
   }
 }
