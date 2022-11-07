@@ -1,16 +1,36 @@
-# plants_ui
 
-A new Flutter project.
+# Plant UI
 
-## Getting Started
+A frontend only shop app to display different plants.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Authors
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [@aneebbaig](https://github.com/aneebbaig)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Features
+
+- Horizontal Scroll
+- Stack Design
+- Cross platform
+
+
+## Tech Stack
+
+**Front-end Framework:** Flutter
+
+<img src="https://storage.googleapis.com/cms-storage-bucket/c823e53b3a1a7b0d36a9.png" width=20% height=20%>
+
+
+## Screenshots
+
+### Homepage
+<img src="https://github.com/aneebbaig/plant_ui/blob/main/screenshots/Plant_Details_Page.png" width=30% height=20%>
+
+### Shop Screen
+<img src="https://github.com/aneebbaig/plant_ui/blob/main/screenshots/Shop_Page.png" width=30% height=20%>
+
+### Plant Details Screen
+<img src="https://github.com/aneebbaig/plant_ui/blob/main/screenshots/Homepage.png" width=30% height=20%>
+
