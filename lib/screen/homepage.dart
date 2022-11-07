@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:plants_ui/screen/shop_screen.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -50,7 +51,11 @@ class HomePage extends StatelessWidget {
                   backgroundColor: const Color(0xFFd8d354),
                   //maximumSize: Size.fromWidth(size.width * 0.8),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.of(context).popAndPushNamed(
+                    Shop.routename,
+                  );
+                },
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Row(

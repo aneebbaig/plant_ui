@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:plants_ui/screen/plant_details_screen.dart';
 import 'package:plants_ui/widgets/plant_card.dart';
 
 import '../widgets/CategoryCard.dart';
 
 class Shop extends StatelessWidget {
+  static const routename = "/shop";
   const Shop({super.key});
 
   @override
@@ -79,7 +81,12 @@ class ShopBody extends StatelessWidget {
               ),
             ),
           ),
-          const PlantCard(),
+          InkWell(
+            child: const PlantCard(),
+            onTap: () => Navigator.of(context).pushNamed(
+              PlantDetailsScreen.routename,
+            ),
+          ),
           const Spacer(),
           Align(
             alignment: Alignment.centerLeft,
